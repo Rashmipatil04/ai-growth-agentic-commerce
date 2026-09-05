@@ -204,13 +204,6 @@ python tests/test_cart.py             # Phase 6
 python tests/test_payment.py          # Phase 7
 python tests/test_dashboard.py        # Phase 8
 python tests/test_growth.py           # Phase 9
-```
 
----
 
-## 💡 Notes for Students & Evaluators
 
-- **Zero API Key Requirement for Demo:** If no `GEMINI_API_KEY` or `RAZORPAY_KEY_ID` is set, the system seamlessly activates its built-in heuristic reasoning engine and simulated test gateway so you can test all features without setup friction.
-- **Safety First:** Never commit `.env` containing real API keys.
-- **Test Mode Payments Only:** All transactions are purely in Test Mode — no real credit cards, bank accounts, or money will ever be processed.
-- **Data Persistence:** All products, customer records, and orders are stored in human-readable JSON files in the `/data` directory.
